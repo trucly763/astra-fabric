@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "astra.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractBlockMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityRenderDispatcherMixin",
+    "FireWorkRocketEntityMixin",
+    "HeldItemFeatureRendererMixin",
+    "ICameraMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityRendererAccessor",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "TextVisitFactoryMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
